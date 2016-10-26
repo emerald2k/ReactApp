@@ -1,0 +1,28 @@
+{
+  "name": "reactapp",
+  "version": "1.0.0",
+  "description": "ReactJS Challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emerald2k/ReactApp.git"
+  },
+  "keywords": [
+    "ReactJS"
+  ],
+  "author": "Bogdan Matei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emerald2k/ReactApp/issues"
+  },
+  "homepage": "https://github.com/emerald2k/ReactApp#readme",
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
