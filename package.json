@@ -4,7 +4,9 @@
   "description": "ReactJS Challenge",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --hot"
+    "start": "webpack-dev-server --hot",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,8 @@
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "webpack": "^1.13.2",
-    "webpack-dev-server": "^1.16.2"
-  }
+    "webpack-dev-server": "^1.16.2",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
