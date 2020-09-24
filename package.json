@@ -20,8 +20,8 @@
   },
   "homepage": "https://github.com/emerald2k/ReactApp#readme",
   "dependencies": {
-    "react": "^15.3.2",
-    "react-dom": "^15.3.2",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.16.2"
   }
